@@ -1,0 +1,4 @@
+Hey this is a random text file meant to have us play around with git. 
+If other people could add to this by writing anything and pushing to master 
+branch that would be great. I look forward to commiting and pushing changes 
+with you guys.
