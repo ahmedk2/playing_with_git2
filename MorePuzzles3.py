@@ -14,6 +14,9 @@ n = 31415
 #Create variable for square root of n
 x = math.sqrt(n)
 
+#Print x (Root of n) for debugging
+print(x)
+
 #N is string version of n (for comparison later)
 N = str(n)
 
@@ -21,3 +24,6 @@ N = str(n)
 x = round(x,3)
 #Turn rounded square of x into integer (no decimals)
 x = int(x*1000)
+
+#Print x (rounded) for debugging
+print(x)
