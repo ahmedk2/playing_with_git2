@@ -39,4 +39,8 @@ for y in range(1, 5):
     if t[0:5] == N[0:5]:
         #Return result
         print("{} to the power of {} works.".format(x,y))
-        
+        #Display variables
+        print("n:",N)
+        print("t:",t)
+        #Display more proper finishing statement.
+        print("Ergo, n must be {}.".format(x))
