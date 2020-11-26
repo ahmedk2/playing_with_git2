@@ -27,3 +27,16 @@ x = int(x*1000)
 
 #Print x (rounded) for debugging
 print(x)
+
+#For each number for a power
+for y in range(1, 5):
+    #Test each power in case of many solutions
+    #Where x is rounded number from before
+    t = x**y
+    #Turn integer t into string for comparison
+    t = str(t)
+    #If the first characters of the powered number is the number to check
+    if t[0:5] == N[0:5]:
+        #Return result
+        print("{} to the power of {} works.".format(x,y))
+        
